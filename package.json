@@ -1,0 +1,49 @@
+{
+  "name": "todo-grok-4.1-fast",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/bun": "latest",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/ui": "^4.0.12",
+    "autoprefixer": "^10.4.22",
+    "better-sqlite3": "^12.4.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "drizzle-kit": "^0.31.7",
+    "drizzle-orm": "^0.44.7",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.3",
+    "framer-motion": "^12.23.24",
+    "fuse.js": "^7.1.0",
+    "jsdom": "^27.2.0",
+    "lucide-react": "^0.554.0",
+    "next": "^16.0.3",
+    "next-themes": "^0.4.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.66.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^3.4.0",
+    "vaul": "^1.1.2",
+    "vitest": "^4.0.12",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --dev",
+    "test": "vitest"
+  }
+}
